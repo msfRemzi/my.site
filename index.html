@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Remzi | Официальный сайт</title>
+    <meta property="og:title" content="Remzi">
+    <meta property="og:description" content="Официальный сайт">
+    <meta name="description" content="Remzi Официальный сайт. Artur Destroyer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Remzi">
+    <meta name="Copyright" content="Remzi">
+    <link rel="shortcut icon" href="assets/favico/ico.png" type="image/png">
+    <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/text.js"></script>
+    <script src="assets/js/typed.min.js"></script>
+    <meta name="theme-color" content="#000000">
+</head>
+
+<body class="center">
+    <div class="loaderArea">
+       <div class="loader"></div>
+    </div>
+
+    <script type="text/javascript">
+        var test = false;
+        if (!test) {
+            function isMobile() {
+                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+            }
+            if (isMobile()) {
+                window.location.replace("/mobile")
+            }
+        }
+        document.body.style.backgroundImage = "url('assets/images/background.gif')";
+    </script>
+    <header class="center info">
+        <di class="center pizdec">
+            <div class="avatar-container"><img src="assets/images/avatar.jpg" oncontextmenu="return false;" class="avatar">
+            </div>
+            <h2><span>msfRemzi</span></h2>
+            <hr width="295">
+            <h1><span class="typed"></span><span class="typed-cursor">❚Remzi</span></h1>
+            <hr width="295">
+            <h2>Ссылки:</h2>
+        
+        <div class="buttons">
+            <a href="javascript://" class="link" onclick="location.href='https://t.me/msfRemzi'">Profile TG</a>
+            <a href="javascript://" class="link" onclick="location.href='https://t.me/RemziBio'">Channel TG</a>
+        </div>
+        <div class="buttons">
+            <a href="javascript://" class="link" onclick="location.href='https://youtube.com/channel/UCvI2tAK11t2UV6P4rEObHwQ'">YouTube</a>
+            <a href="javascript://" class="link" onclick="location.href='#'">Remzi-GitHub</a>
+        </div>
+        <div class="buttons">
+            <a href="javascript://" class="link" onclick="location.href='../my.site/donate/index.html'">Donate</a>
+            <a href="javascript://" class="link" onclick="location.href=''" target="_blank">My Bot</a>
+        </div>
+
+        <script>
+          $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+              $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+          });
+        </script>
+    </header>
+</body>
+<!-- <p class="bottom-text">2022 &copy; msfRemzi</p>  -->
+<!-- <style>
+    .bottom-text {
+    text-align: center;
+    color: #c8c2c8;
+    margin-top: 100px
+}
+</style> -->
+</html>
